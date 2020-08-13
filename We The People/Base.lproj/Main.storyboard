@@ -7,6 +7,43 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--My Protest Table View Controller-->
+        <scene sceneID="rVj-Zf-Wy7">
+            <objects>
+                <tableViewController id="j39-eu-R8E" customClass="MyProtestTableViewController" customModule="We_The_People" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0zl-R2-vyn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="2qW-ot-cqC">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="YQD-xJ-PTY">
+                                <rect key="frame" x="0.0" y="72" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YQD-xJ-PTY" id="RUA-Sf-m9m">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="j39-eu-R8E" id="Kva-xb-BE2"/>
+                            <outlet property="delegate" destination="j39-eu-R8E" id="gig-nf-r0L"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="iHX-od-GKW"/>
+                    <connections>
+                        <outlet property="searchBar" destination="2qW-ot-cqC" id="6gJ-wh-7OW"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPQ-Su-zE0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-644" y="99"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -28,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SV3-f1-rHO">
-                                <rect key="frame" x="94" y="345" width="227" height="68"/>
+                                <rect key="frame" x="94" y="309" width="227" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94117647058823528" green="0.59999999999999998" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="36"/>
@@ -40,7 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lat-l7-T5p">
-                                <rect key="frame" x="94" y="483" width="227" height="69"/>
+                                <rect key="frame" x="94" y="399" width="227" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.18092414740000001" green="0.43076553940000001" blue="0.552402854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="36"/>
@@ -51,12 +88,8 @@
                                     <segue destination="tEb-bE-lK6" kind="show" id="kkp-yp-qM3"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arms raised image" translatesAutoresizingMaskIntoConstraints="NO" id="rvw-Mf-FbD">
-                                <rect key="frame" x="28" y="672" width="327" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaJ-aa-yqi">
-                                <rect key="frame" x="128" y="560" width="158" height="40"/>
+                                <rect key="frame" x="128" y="577" width="158" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
                                 <state key="normal" title="FAQs">
@@ -73,6 +106,22 @@
                                 <color key="textColor" red="0.22027099784201373" green="0.23509337402821717" blue="0.32430336865989839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJF-Sm-qL3">
+                                <rect key="frame" x="94" y="493" width="227" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92731314899999995" green="0.46889156100000001" blue="0.45990425350000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="36"/>
+                                <state key="normal" title="Protests">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="j39-eu-R8E" kind="show" id="MgY-vL-o9T"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arms raised image" translatesAutoresizingMaskIntoConstraints="NO" id="rvw-Mf-FbD">
+                                <rect key="frame" x="28" y="625" width="327" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96793109180000003" green="0.96429473160000001" blue="0.95404356720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -208,14 +257,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJF-Un-Rk6">
                                 <rect key="frame" x="45" y="101" width="325" height="710"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Wear a face shield, face mask and goggles. Sunglasses and glasses are not as effective. DO NOT WEAR contacts as the particles can get trapped and damage your eyes.
+                                <string key="text">1. Wear a face shield, face mask and goggles. Sunglasses and glasses are not as effective. DO NOT WEAR contacts as the particles can get trapped and damage your eyes.
 2. If you get tear gassed, get away from the area and avoid touching your face. Wrap cloth around your hairline to keep sweat from dripping into your eyes.
 3.Flap your arms around to help disperse the substance from your skin and clothes.
 4.Wait a few hours for the powder to dry. 
 5.Once dry, wash out the substance but be careful not to let the water run into your face or onto sensitive parts of your body.
 6. Wash your clothes twice.
 7. If your symptoms do not resolve or get worse, seek medical attention immediately.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -265,12 +314,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kri-k0-xKB">
                                 <rect key="frame" x="37" y="173" width="341" height="615"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1.Wear long sleeves, pants and eye protection, multi layered clothing, helmets or face shields and ballistic vests.
+                                <string key="text">1.Wear long sleeves, pants and eye protection, multi layered clothing, helmets or face shields and ballistic vests.
 2. If you are hit and have bruising, immediately apply ice to the area.
 3. If the skin is punctured, a wound without a rubber bullet lodged in it should be washed with lots of water. Loosely cover with gauze until a medical professional can evaluate it.
 4.For a closed would apply ice and pressure for swelling. For an open wound, apply pressure to stop the bleeding and get a medical professional as soon as possible.
 5. If the bullet is lodged do not take it out without a medical professional. If the bullet is in your eye DO NOT remove it and seek help immediately.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1157,10 +1206,9 @@ Necessary medications for health conditions -- like an asthma inhaler
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4q6-JQ-T4J"/>
         <segue reference="emC-8X-MHE"/>
         <segue reference="kkp-yp-qM3"/>
-        <segue reference="rpb-U6-rfF"/>
+        <segue reference="KGh-oe-VA8"/>
         <segue reference="gWv-JW-iUn"/>
     </inferredMetricsTieBreakers>
     <resources>
