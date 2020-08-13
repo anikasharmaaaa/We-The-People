@@ -1194,6 +1194,71 @@ Necessary medications for health conditions -- like an asthma inhaler
                                     <segue destination="BYZ-38-t0r" kind="show" id="4UZ-Wf-QnB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-j9-OG2">
+                                <rect key="frame" x="108" y="293" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Colorado">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yUF-qI-sdm" kind="show" id="fBW-aa-JKT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6g-MY-BjJ">
+                                <rect key="frame" x="108" y="411" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Minnesota">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mhE-fs-REU" kind="show" id="hv1-Bb-Uod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaJ-Js-NJk">
+                                <rect key="frame" x="108" y="533" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="New York">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fli-c9-x1Z" kind="show" id="7Xm-hY-f2w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrz-Rq-QNe">
+                                <rect key="frame" x="108" y="654" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Oregon">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lRG-r4-Cdy" kind="show" id="aam-LA-AdK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV8-QP-9IO">
+                                <rect key="frame" x="108" y="172" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="California">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="q5h-sa-qZV" kind="show" id="rNe-gL-nKo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96793109180000003" green="0.96429473160000001" blue="0.95404356720000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="t9m-3l-FwN"/>
@@ -1204,12 +1269,362 @@ Necessary medications for health conditions -- like an asthma inhaler
             </objects>
             <point key="canvasLocation" x="1253.6231884057972" y="-674.33035714285711"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tUf-94-0ND">
+            <objects>
+                <viewController id="lRG-r4-Cdy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jaq-cu-aHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oregon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rec-0A-m9x">
+                                <rect key="frame" x="89" y="95" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4U-xw-5wh">
+                                <rect key="frame" x="20" y="180" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be charged with disorderly conduct if you intentionally cause public inconvenience, annoyance, or alarm. 
+You will also be charged if you create and circulate a report that is false regarding: 
+(a) Concerning an alleged hazardous substance or an alleged or impending fire, explosion, catastrophe or other emergency; and
+(b) Stating that the hazardous substance, fire, explosion, catastrophe or other emergency is located in or upon a school.
+Disorderly conduct, in the first degree, is a Class A misdemeanor.
+Disorderly conduct, in the first degree, is a Class C felony if you have a prior conviction of disorderly conduct.
+If five or more people, including yourself, are unlawfully and riotously assembled, any public official in the law, including the sheriff, the mayor, the chief executive officer, and the chief justice of peace, can command the group to disperse. If you do not, you will be arrested and charged, according to the law.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="035-0j-cGc">
+                                <rect key="frame" x="50" y="765" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="Trz-c3-grC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="mso-iy-dS3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oxc-NU-erw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bnx-fz-YpC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="-1330"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4D0-jA-e7d">
+            <objects>
+                <viewController id="q5h-sa-qZV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ak2-oA-fWU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="California" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzA-ce-LyK">
+                                <rect key="frame" x="89" y="66" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfF-v3-M2i">
+                                <rect key="frame" x="20" y="781" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="9bg-CS-9Pn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWy-Wg-Vbj">
+                                <rect key="frame" x="20" y="175" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
+If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
+If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
+The court can add on additional restitutions, if deemed appropriate.
+The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="94X-1w-t8k"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FVl-HP-kpM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ijl-WF-8el" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023.1884057971015" y="-665.625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ln3-yp-xCL">
+            <objects>
+                <viewController id="yUF-qI-sdm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FdK-k1-319">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colorado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zy6-MP-ag9">
+                                <rect key="frame" x="77" y="54" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbm-Dk-XH5">
+                                <rect key="frame" x="20" y="133" width="374" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be charged with disorderly conduct if you knowingly, intentionally, or recklessly:
+1 - Make an obscene and obviously offensive gesture or utterance, or make displays with the intent to breach the peace
+2 - Make an unreasonable amount of noise in a public place or near a private residence that you do not have a purpose being nearor
+3 - Participate in, or start, a fight that is not in a lawful display of amatuer or professional athletic skill
+4 - Discharge a firearm in a public place, except for lawful target practice and hunting, or in the lawful discharge of blanks at the funeral of a deceased veteran.
+5 - Display a deadly weapon, act like something is a deadly weapon, or say that you have a deadly weapon
+Most of the time, acts 1 and 2 are considered a class 1 petty offense, or infraction;  But, if you commit this offense with the intent to disrupt, impair, or interfere with a funeral, or cause severe emotional distress to a person attending a funeral, it is a class 2 misdemeanor.
+Act 3 is a class 3 misdemeanor.
+Acts 4 and 5 are both considered a class 2 misdemeanor.
+You will be charged with a class 3 misdemeanor if you knowingly disobey an official public safety order to move, disperse, or refrain from specified activities during a riot, or if one is pending. A public safety order is meant to promote safety and can only be issued by an authorized member of the police, fire, military, or other forces concerned with the riot. Newsreporters and their crews are exempt from the public safety order, unless they physically interfere with authorized officials trying to control the riot.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRj-cA-aWJ">
+                                <rect key="frame" x="46" y="776" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="XOd-UC-hHy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="MOL-Oq-c0u"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ISP-F8-dE7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUX-pP-HMl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2726.0869565217395" y="-662.27678571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rZb-6j-WEe">
+            <objects>
+                <viewController id="mhE-fs-REU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aYH-1l-Dky">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minnesota" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miM-O8-93x">
+                                <rect key="frame" x="89" y="103" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqp-t8-I3b">
+                                <rect key="frame" x="20" y="182" width="374" height="388"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Unlawful Assembly Law: If you get into a fight, disturb a lawful meeting or assembly, or engage in loud, obnoxious, rude conversation knowing that it will, or will tend to, alarm, anger or disturb others or provoke an assault or breach of the peace, is guilty of disorderly conduct
+Failure to Disperse Law: In a group of three or more, each person can be arrested if:
+(1) intend to break the law by force
+(2) intend to disturb or threaten the public peace
+(3) if the people act in such a way as to disturb or threaten the public peace</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR9-xk-v65">
+                                <rect key="frame" x="48" y="781" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="05e-87-f0n"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="gWN-Xg-nar"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eWU-Br-nMs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PB5-Bs-eKp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3500.0000000000005" y="-660.26785714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Z0-tZ-A8u">
+            <objects>
+                <viewController id="fli-c9-x1Z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vXg-Ki-VwQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New York" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aH8-ta-ilI">
+                                <rect key="frame" x="89" y="70" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rms-tI-Jdn">
+                                <rect key="frame" x="20" y="174" width="374" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be charged with unlawful assembly if you and four or more people plan to act in a tumultuous or violent manner that will cause public alarm. You will also be charged if you remain on the scene if the intent of the group turns violent or tumultuous. This is a class B misdemeanor.
+You will be charged with disorderly conduct if you commit any of the following with the intent to cause the public inconvenience, annoyance, alarm, or risk:
+1. You engage in a fight or alarming, risky behavior;
+2. You make unreasonably loud noises;
+3. You use obscene or aggressive language or gestures in public
+4. You disturb an peaceful or lawful assembly without lawful authority
+5. You obstruct either vehicle or pedestrian traffic
+6. You congregate with others and refuse to disperse when the police or lawful authority tell you to
+7. You create a physically dangerous situation with no legitimate reason to do so
+Disorderly conduct is a violation</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yg-Hp-uwv">
+                                <rect key="frame" x="49" y="773" width="39" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="AJg-bE-Zwh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="mGS-Tz-i65"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vm8-jq-XXH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5b-hC-Mi0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4276.811594202899" y="-660.26785714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wne-lq-7fm">
+            <objects>
+                <viewController id="l4l-S4-BX8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b5k-cM-kNx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="California" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a36-0x-ZoO">
+                                <rect key="frame" x="89" y="66" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9H-BQ-pD8">
+                                <rect key="frame" x="20" y="781" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPR-Md-UV3">
+                                <rect key="frame" x="20" y="175" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
+If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
+If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
+The court can add on additional restitutions, if deemed appropriate.
+The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="u1W-yT-xyB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zus-Ol-eKt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GhV-vJ-0MO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023.1884057971015" y="-665.625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DfR-p9-1y8">
+            <objects>
+                <viewController id="KKx-rG-zcL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t8e-L1-abz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="California" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf9-4v-nEf">
+                                <rect key="frame" x="89" y="96" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnd-lG-5Qp">
+                                <rect key="frame" x="20" y="175" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
+If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
+If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
+The court can add on additional restitutions, if deemed appropriate.
+The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSJ-wX-XxH">
+                                <rect key="frame" x="36" y="814" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="tsn-md-e7l"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nxd-tY-I4M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Xv-OQ-V0d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023.1884057971015" y="-665.625"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="AJg-bE-Zwh"/>
         <segue reference="emC-8X-MHE"/>
         <segue reference="kkp-yp-qM3"/>
-        <segue reference="KGh-oe-VA8"/>
-        <segue reference="gWv-JW-iUn"/>
+        <segue reference="KpU-7C-SA1"/>
+        <segue reference="4UZ-Wf-QnB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 12.04.41 PM" width="399" height="402"/>
