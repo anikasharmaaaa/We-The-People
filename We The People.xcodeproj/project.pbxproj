@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC99A93A24E50B8E00F59305 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99A93924E50B8E00F59305 /* TipsViewController.swift */; };
+		BC99A93C24E51F2000F59305 /* HowToPrepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC99A93B24E51F2000F59305 /* HowToPrepViewController.swift */; };
 		F1BA2CE024E46A580008865C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA2CDF24E46A580008865C /* AppDelegate.swift */; };
 		F1BA2CE224E46A580008865C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA2CE124E46A580008865C /* SceneDelegate.swift */; };
 		F1BA2CE424E46A580008865C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA2CE324E46A580008865C /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC99A93924E50B8E00F59305 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		BC99A93B24E51F2000F59305 /* HowToPrepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPrepViewController.swift; sourceTree = "<group>"; };
 		F1BA2CDC24E46A570008865C /* We The People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We The People.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA2CDF24E46A580008865C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BA2CE124E46A580008865C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				F1BA2CE124E46A580008865C /* SceneDelegate.swift */,
 				F1BA2CE324E46A580008865C /* ViewController.swift */,
 				F1BA2CE524E46A580008865C /* Main.storyboard */,
+				BC99A93B24E51F2000F59305 /* HowToPrepViewController.swift */,
+				BC99A93924E50B8E00F59305 /* TipsViewController.swift */,
 				F1BA2CEB24E46A670008865C /* Assets.xcassets */,
 				F1BA2CED24E46A670008865C /* LaunchScreen.storyboard */,
 				F1BA2CF024E46A670008865C /* Info.plist */,
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BA2CE424E46A580008865C /* ViewController.swift in Sources */,
+				BC99A93A24E50B8E00F59305 /* TipsViewController.swift in Sources */,
 				F1BA2CE024E46A580008865C /* AppDelegate.swift in Sources */,
+				BC99A93C24E51F2000F59305 /* HowToPrepViewController.swift in Sources */,
 				F1BA2CEA24E46A580008865C /* We_The_People.xcdatamodeld in Sources */,
 				F1BA2CE224E46A580008865C /* SceneDelegate.swift in Sources */,
 			);
