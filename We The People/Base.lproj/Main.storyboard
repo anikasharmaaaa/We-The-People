@@ -1169,6 +1169,98 @@ Necessary medications for health conditions -- like an asthma inhaler
             <point key="canvasLocation" x="5215.9420289855079" y="829.6875"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="Ww5-1S-cXQ">
+            <objects>
+                <viewController id="ff9-ex-0hs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ksu-D9-n6m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Degrees of Charges" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-Hj-hXR">
+                                <rect key="frame" x="89" y="114" width="237" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="35"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OrA-Ba-WIx">
+                                <rect key="frame" x="20" y="193" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Violations/Infractions: Least serious; only fined, no jail time; do not necessarily need a lawyer
+Misdemeanors: Serious; up to a year in jail, eligible for fines, restitutions, and community service; need a lawyer - the state must provide you one if you cannot afford one
+Felonies: Most serious; separated by categories, A(worst)-E); fines, jail/prison time(for life potentially), community service, probation are all potential punishments; need a lawyer - the state must provide you one if you cannot afford one</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRZ-QN-Kpt">
+                                <rect key="frame" x="52" y="738" width="44" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="DBu-7X-SsH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="1M1-z4-OD6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iKk-UW-eBK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgj-5M-1Kd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737.68115942028987" y="-1355.3571428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CSW-M6-HzD">
+            <objects>
+                <viewController id="rJX-mr-D9b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RW2-bo-i13">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cix-3o-js8">
+                                <rect key="frame" x="46" y="768" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="rIB-Df-XsF" kind="show" id="kEj-r9-vl0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Constitutional Rights" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaX-Tf-sfW">
+                                <rect key="frame" x="89" y="79" width="237" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="33"/>
+                                <color key="textColor" red="0.86458188300000005" green="0.5056141019" blue="0.48801946639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOn-YA-Sj6">
+                                <rect key="frame" x="20" y="198" width="374" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">First Amendment Right - Congress, state or national, cannot pass laws to prevent you from peacefully protesting against the government. Instead, each state has laws to arrest what they deem “violent” protests.
+Fourth Amendment Right - You, your house, your IDs, and any other possessions cannot be searched without probable cause and a warrant. Officers cannot forcibly search you or your things. But, you cannot resist a valid warrant.
+Above all - YOU ARE INNOCENT UNTIL PROVEN GUILTY</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96853822469999995" green="0.96488314870000003" blue="0.952940762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="yty-Rf-7w9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="utL-Lh-8NM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1i-Xh-4tD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463.768115942029" y="-660.26785714285711"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="yJc-7X-Hrs">
             <objects>
                 <viewController id="rIB-Df-XsF" sceneMemberID="viewController">
@@ -1176,7 +1268,7 @@ Necessary medications for health conditions -- like an asthma inhaler
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn3-cp-1xE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn3-cp-1xE">
                                 <rect key="frame" x="89" y="64" width="237" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1195,7 +1287,7 @@ Necessary medications for health conditions -- like an asthma inhaler
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-j9-OG2">
-                                <rect key="frame" x="108" y="293" width="199" height="62"/>
+                                <rect key="frame" x="108" y="326" width="199" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
@@ -1221,7 +1313,7 @@ Necessary medications for health conditions -- like an asthma inhaler
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaJ-Js-NJk">
-                                <rect key="frame" x="108" y="533" width="199" height="62"/>
+                                <rect key="frame" x="108" y="499" width="199" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
@@ -1234,7 +1326,7 @@ Necessary medications for health conditions -- like an asthma inhaler
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrz-Rq-QNe">
-                                <rect key="frame" x="108" y="654" width="199" height="62"/>
+                                <rect key="frame" x="108" y="586" width="199" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
@@ -1247,7 +1339,7 @@ Necessary medications for health conditions -- like an asthma inhaler
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV8-QP-9IO">
-                                <rect key="frame" x="108" y="172" width="199" height="62"/>
+                                <rect key="frame" x="108" y="243" width="199" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
@@ -1257,6 +1349,32 @@ Necessary medications for health conditions -- like an asthma inhaler
                                 </state>
                                 <connections>
                                     <segue destination="q5h-sa-qZV" kind="show" id="rNe-gL-nKo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CW-DG-k7p">
+                                <rect key="frame" x="108" y="677" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Degrees of Charges">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ff9-ex-0hs" kind="show" id="zNd-zS-W1b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ah-al-iFp">
+                                <rect key="frame" x="108" y="159" width="199" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92336672539999998" green="0.47116321329999999" blue="0.45880925659999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="18"/>
+                                <color key="tintColor" red="0.88249605890000005" green="0.88996869329999995" blue="0.90196365119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Constitutional Rights">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rJX-mr-D9b" kind="show" id="qs2-P2-ww4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1288,13 +1406,13 @@ Necessary medications for health conditions -- like an asthma inhaler
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4U-xw-5wh">
                                 <rect key="frame" x="20" y="180" width="374" height="537"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be charged with disorderly conduct if you intentionally cause public inconvenience, annoyance, or alarm. 
+                                <string key="text">You will be charged with disorderly conduct if you intentionally cause public inconvenience, annoyance, or alarm. 
 You will also be charged if you create and circulate a report that is false regarding: 
 (a) Concerning an alleged hazardous substance or an alleged or impending fire, explosion, catastrophe or other emergency; and
 (b) Stating that the hazardous substance, fire, explosion, catastrophe or other emergency is located in or upon a school.
 Disorderly conduct, in the first degree, is a Class A misdemeanor.
 Disorderly conduct, in the first degree, is a Class C felony if you have a prior conviction of disorderly conduct.
-If five or more people, including yourself, are unlawfully and riotously assembled, any public official in the law, including the sheriff, the mayor, the chief executive officer, and the chief justice of peace, can command the group to disperse. If you do not, you will be arrested and charged, according to the law.</mutableString>
+If five or more people, including yourself, are unlawfully and riotously assembled, any public official in the law, including the sheriff, the mayor, the chief executive officer, and the chief justice of peace, can command the group to disperse. If you do not, you will be arrested and charged, according to the law.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1348,13 +1466,13 @@ If five or more people, including yourself, are unlawfully and riotously assembl
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWy-Wg-Vbj">
                                 <rect key="frame" x="20" y="175" width="374" height="537"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+                                <string key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
 If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
 If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
 If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
 The court can add on additional restitutions, if deemed appropriate.
 The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1388,7 +1506,7 @@ The burden of proof is the job of the victim. They have to prove that you were t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbm-Dk-XH5">
                                 <rect key="frame" x="20" y="133" width="374" height="635"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be charged with disorderly conduct if you knowingly, intentionally, or recklessly:
+                                <string key="text">You will be charged with disorderly conduct if you knowingly, intentionally, or recklessly:
 1 - Make an obscene and obviously offensive gesture or utterance, or make displays with the intent to breach the peace
 2 - Make an unreasonable amount of noise in a public place or near a private residence that you do not have a purpose being nearor
 3 - Participate in, or start, a fight that is not in a lawful display of amatuer or professional athletic skill
@@ -1398,7 +1516,7 @@ Most of the time, acts 1 and 2 are considered a class 1 petty offense, or infrac
 Act 3 is a class 3 misdemeanor.
 Acts 4 and 5 are both considered a class 2 misdemeanor.
 You will be charged with a class 3 misdemeanor if you knowingly disobey an official public safety order to move, disperse, or refrain from specified activities during a riot, or if one is pending. A public safety order is meant to promote safety and can only be issued by an authorized member of the police, fire, military, or other forces concerned with the riot. Newsreporters and their crews are exempt from the public safety order, unless they physically interfere with authorized officials trying to control the riot.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1442,11 +1560,11 @@ You will be charged with a class 3 misdemeanor if you knowingly disobey an offic
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqp-t8-I3b">
                                 <rect key="frame" x="20" y="182" width="374" height="388"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Unlawful Assembly Law: If you get into a fight, disturb a lawful meeting or assembly, or engage in loud, obnoxious, rude conversation knowing that it will, or will tend to, alarm, anger or disturb others or provoke an assault or breach of the peace, is guilty of disorderly conduct
+                                <string key="text">Unlawful Assembly Law: If you get into a fight, disturb a lawful meeting or assembly, or engage in loud, obnoxious, rude conversation knowing that it will, or will tend to, alarm, anger or disturb others or provoke an assault or breach of the peace, is guilty of disorderly conduct
 Failure to Disperse Law: In a group of three or more, each person can be arrested if:
 (1) intend to break the law by force
 (2) intend to disturb or threaten the public peace
-(3) if the people act in such a way as to disturb or threaten the public peace</mutableString>
+(3) if the people act in such a way as to disturb or threaten the public peace</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1490,7 +1608,7 @@ Failure to Disperse Law: In a group of three or more, each person can be arreste
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rms-tI-Jdn">
                                 <rect key="frame" x="20" y="174" width="374" height="548"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be charged with unlawful assembly if you and four or more people plan to act in a tumultuous or violent manner that will cause public alarm. You will also be charged if you remain on the scene if the intent of the group turns violent or tumultuous. This is a class B misdemeanor.
+                                <string key="text">You will be charged with unlawful assembly if you and four or more people plan to act in a tumultuous or violent manner that will cause public alarm. You will also be charged if you remain on the scene if the intent of the group turns violent or tumultuous. This is a class B misdemeanor.
 You will be charged with disorderly conduct if you commit any of the following with the intent to cause the public inconvenience, annoyance, alarm, or risk:
 1. You engage in a fight or alarming, risky behavior;
 2. You make unreasonably loud noises;
@@ -1499,7 +1617,7 @@ You will be charged with disorderly conduct if you commit any of the following w
 5. You obstruct either vehicle or pedestrian traffic
 6. You congregate with others and refuse to disperse when the police or lawful authority tell you to
 7. You create a physically dangerous situation with no legitimate reason to do so
-Disorderly conduct is a violation</mutableString>
+Disorderly conduct is a violation</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1550,13 +1668,13 @@ Disorderly conduct is a violation</mutableString>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPR-Md-UV3">
                                 <rect key="frame" x="20" y="175" width="374" height="537"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+                                <string key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
 If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
 If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
 If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
 The court can add on additional restitutions, if deemed appropriate.
 The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1590,13 +1708,13 @@ The burden of proof is the job of the victim. They have to prove that you were t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnd-lG-5Qp">
                                 <rect key="frame" x="20" y="175" width="374" height="537"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+                                <string key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
 If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
 If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
 If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
 The court can add on additional restitutions, if deemed appropriate.
 The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1620,7 +1738,7 @@ The burden of proof is the job of the victim. They have to prove that you were t
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AJg-bE-Zwh"/>
+        <segue reference="DBu-7X-SsH"/>
         <segue reference="emC-8X-MHE"/>
         <segue reference="kkp-yp-qM3"/>
         <segue reference="KpU-7C-SA1"/>
