@@ -15,8 +15,7 @@ class TipsViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepareButton.layer.cornerRadius = 25.0
-        scenariosButton.layer.cornerRadius = 25.0
+        
 
         // Do any additional setup after loading the view.
     }

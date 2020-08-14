@@ -13,10 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var yourRightsButton: UIButton!
     @IBOutlet weak var yourSafetyButton: UIButton!
     @IBOutlet weak var tipsButton: UIButton!
+    @IBOutlet weak var protestsButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         
         
     }

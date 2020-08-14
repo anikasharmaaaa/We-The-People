@@ -10,7 +10,7 @@ import UIKit
 
 class MyProtestTableViewController: UITableViewController, UISearchBarDelegate {
 
-    let data = ["Thursday - August 13", "Friday - August 14", "Saturday - August 15", "Sunday - August 16"]
+    let data = ["East Palo Alto - Abolish ICE Rally & March - 8/14", "San Francisco - Giants and Warriors Workers Fight Back Protest - 8/14", "San Francisco - Love, Peace, and Justice Banner Drop - 8/15", "San Francisco - Protest Against Anti-Sikh Laws - 8/15", "Monterey City - Demanding Justice for Brutalized Black Prisoners - 8/15", "San Jose - BLM Stand For Justice - 8/15", "Walnut Creek - BLM Peaceful Skate Protest - 8/15", "San Jose - Slow The Row Protest - 8/15", "San Francisco - George Floyd Memorial Sunset Beach Stroll - 8/16", "San Francisco - Defund SFPD Protest - 8/18", "Oakland - March For the Dead - 8/18", "San Francisco - Justice For Breonna Taylor March - 8/21"]
     var filteredData: [String]!
     
     @IBOutlet weak var searchBar: UISearchBar!
