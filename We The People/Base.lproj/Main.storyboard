@@ -147,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
-                                <state key="normal" title="Teargass">
+                                <state key="normal" title="Teargas">
                                     <color key="titleColor" red="0.91001744920000005" green="0.60299497170000005" blue="0.01870724901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -1424,7 +1424,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcb-tB-WB9">
                                 <rect key="frame" x="27" y="420" width="360" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Felonies: Most serious; separated by categories, A(worst)-E); fines, jail/prison time(for life potentially), community service, probation are all potential punishments; need a lawyer - the state must provide you one if you cannot afford one
+                                <string key="text">Felonies: Most serious; separated by categories, A(worst)-E; fines, jail/prison time(for life potentially), community service, probation are all potential punishments; need a lawyer - the state must provide you one if you cannot afford one
 </string>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
                                 <color key="textColor" red="0.367328663" green="0.52571413119999999" blue="0.60588515229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1766,7 +1766,7 @@ The burden of proof is the job of the victim. They have to prove that you were t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="47" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbm-Dk-XH5">
                                 <rect key="frame" x="20" y="99" width="374" height="709"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be charged with disorderly conduct if you knowingly, intentionally, or recklessly:
+                                <string key="text">You will be charged with disorderly conduct if you knowingly, intentionally, or recklessly:
 1 - Make an obscene and obviously offensive gesture or utterance, or make displays with the intent to breach the peace
 2 - Make an unreasonable amount of noise in a public place or near a private residence that you do not have a purpose being nearor
 3 - Participate in, or start, a fight that is not in a lawful display of amatuer or professional athletic skill
@@ -1776,7 +1776,7 @@ Most of the time, acts 1 and 2 are considered a class 1 petty offense, or infrac
 Act 3 is a class 3 misdemeanor.
 Acts 4 and 5 are both considered a class 2 misdemeanor.
 You will be charged with a class 3 misdemeanor if you knowingly disobey an official public safety order to move, disperse, or refrain from specified activities during a riot, or if one is pending. Newsreporters and their crews are exempt from the public safety order, unless they physically interfere with authorized officials trying to control the riot.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1974,13 +1974,13 @@ The burden of proof is the job of the victim. They have to prove that you were t
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnd-lG-5Qp">
                                 <rect key="frame" x="20" y="175" width="374" height="597"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
+                                <string key="text">You will be arrested if, as a group, you commit an unlawful act, or act violently, boisterously, or tumultuously as a group
 If you have been lawfully warned and do not disperse, you will be charged with a misdemeanor.
 If you are committing an unlawful act or purposefully disturbing the public peace, and are warned to disperse by a public officer, yet you don’t, you will be charged with a severe misdemeanor.
 If you are charged with the crime above, you will have to pay restitution for the damage you cause, including cleaning up, repairing, replacing, and/or restoring the damaged property. The restitution will be paid directly to the victim. If you cannot pay the restitution, you will be ordered with community service, instead.
 The court can add on additional restitutions, if deemed appropriate.
 The burden of proof is the job of the victim. They have to prove that you were the one who actually committed the damage. You do not have to prove that you are innocent. You are innocent until proven guilty.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2014,6 +2014,7 @@ The burden of proof is the job of the victim. They have to prove that you were t
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="clT-qj-5Bf"/>
         <segue reference="DBu-7X-SsH"/>
         <segue reference="kMY-4h-tP9"/>
         <segue reference="US2-TJ-rch"/>
